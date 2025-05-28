@@ -1,0 +1,147 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #161b22;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  color: var(--text-color);
+  padding: 20px;
+    box-sizing: border-box;
+}
+
+.app {
+  width: 95%;
+  max-width: 700px;
+  background: #161b22;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 30px rgba(0, 255, 200, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 20px;
+  color: #0ff;
+  margin: 0;
+  font-family: Courier;
+}
+
+header p {
+  font-size: 8px;
+  color: #8b949e;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #0ff;
+  padding: 9px;
+  border-radius: 8px;
+  font-size: 7px;
+  font-family: monospace;
+}
+
+input.error {
+  border: 1px solid red;
+  background-color: #2a0000;
+}
+
+button {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #0ff;
+  padding: 11px 17px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: Segoe UI;
+  font-size: 9px;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.actions button {
+  background: transparent;
+  border: 1px solid #30363d;
+  color: #0ff;
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 9px;
+}
+
+textarea {
+  height: 230px;
+  background: transparent;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 15px;
+  color: #0ff;
+  font-family: monospace;
+  resize: none;
+  font-size: 6px;
+}
+
+
+body, html {
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.counter {
+  color: silver;
+  font-size: 0.95rem;
+  font-weight: 500;
+  font-family: 'Share Tech Mono', monospace;
+  text-align: left;
+  font-size: 7px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer a {
+  margin: 0 4px;
+  color: #0ff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #00ffa0;
+}
+
+footer p {
+  color: #888;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px; 
+  font-family: 'Share Tech Mono', monospace;
+}
+
+

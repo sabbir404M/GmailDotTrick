@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Log the visitor -->
+  <img src="visitor_tracker.php" width="1" height="1" style="display:none;" />
+  <meta property="og:title" content="Gmail Alias & Dot Generator by Mr. R013X 404">
+  <meta property="og:description" content="Generate Gmail dot aliases and sub-addresses. Use Gmail’s hidden power to organize emails smartly.">
+  <meta property="og:image" content="https://yourdomain.com/preview.png">
+  <meta property="og:url" content="https://yourdomain.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gmail Dot Variations</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Iceland&family=Kalam:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet" /> 
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>Dot Gmail Generator</h1>
+      <p>Gmail's Dot Trick - Generate Up To 100,000 Valid Variations</p>
+    </header><br>
+    
+    
+    <div class="input-section">
+      <input type="text" id="baseName" placeholder="Enter your gmail address">
+    </div>
+    <div id="emailError" style="color:red; font-size:11px; display:none;">Enter valid gmail address!</div>
+      
+    <div class="input-section">
+      <input type="number" id="countInput" min="1" max="50000" placeholder="Enter amount">
+      <button id="generateBtn">Generate</button>
+    </div>
+    <div id="countError" style="color:red; font-size:11px; display:none;">Enter amount between 1 to 50,000</div>
+    <br>
+
+
+    <p id="mailCount" class="counter">Generated: 0</p>
+
+
+
+    <div class="actions">
+      <button id="copyBtn" title="Copy"><i class="fas fa-copy"></i></button>
+      <button id="downloadBtn" title="Download"><i class="fas fa-download"></i></button>
+    </div>
+
+    <textarea id="mailOutput" placeholder="Generated emails will appear here..." readonly></textarea>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://github.com/Mr-R013X-404" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.facebook.com/Mr.R013X.404" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+    <a href="https://t.me/MR_R013X_404" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+    <p>&copy; 2025 / Mr. R013X 404 •</p>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
