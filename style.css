@@ -28,14 +28,14 @@ header {
 }
 
 header h1 {
-  font-size: 20px;
+  font-size: 22px;
   color: #0ff;
   margin: 0;
   font-family: Courier;
 }
 
 header p {
-  font-size: 8px;
+  font-size: 10px;
   color: #8b949e;
   font-family: 'Share Tech Mono', monospace;
 }
@@ -50,9 +50,9 @@ input {
   background: transparent;
   border: 1px solid #30363d;
   color: #0ff;
-  padding: 9px;
-  border-radius: 8px;
-  font-size: 7px;
+  padding: 11px;
+  border-radius: 9px;
+  font-size: 9px;
   font-family: monospace;
 }
 
@@ -71,7 +71,7 @@ button {
   font-weight: bold;
   transition: 0.3s;
   font-family: Segoe UI;
-  font-size: 9px;
+  font-size: 11px;
 }
 
 button:hover {
@@ -117,7 +117,7 @@ body, html {
   font-weight: 500;
   font-family: 'Share Tech Mono', monospace;
   text-align: left;
-  font-size: 7px;
+  font-size: 8px;
 }
 
 footer {
