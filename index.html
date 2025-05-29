@@ -26,21 +26,6 @@
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet" /> 
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   
-  
-    <!-- Visitor Counter -->
-  <script>
-    window.addEventListener("DOMContentLoaded", () => {
-      fetch("www.dotgen.zya.me/counter.php")
-        .then(response => response.text())
-        .then(data => {
-          console.log("Visitor logged:", data);
-          // Optionally show it somewhere in the page
-          // document.body.insertAdjacentHTML("beforeend", `<p>${data}</p>`);
-        })
-        .catch(error => console.error("Visitor counter error:", error));
-    });
-  </script>
-  
 </head>
 <body>
   <div class="app">
