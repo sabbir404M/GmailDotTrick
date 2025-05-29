@@ -2,13 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <!-- Log the visitor -->
-  <img src="visitor_tracker.php" width="1" height="1" style="display:none;" />
+  
+  
   <meta property="og:title" content="Gmail Alias & Dot Generator by Mr. R013X 404">
   <meta property="og:description" content="Generate Gmail dot aliases and sub-addresses. Use Gmail’s hidden power to organize emails smartly.">
-  <meta property="og:image" content="https://yourdomain.com/preview.png">
+  <meta name="description" content="GmailDotTrick">
   <meta property="og:url" content="https://yourdomain.com/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="GmailDotTrick"/>
+  <meta name="keywords" content="Gmail Dot"/>
+  <meta name="googlebot" content="all"/>
+  <meta name="robots" content="all" />
+  <meta name="googlebot-news" content="all" />
+  <meta name="google" content="notranslate"/>
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,25 +26,40 @@
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet" /> 
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
   
+  
+    <!-- Visitor Counter -->
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      fetch("https://www.dotgen.zya.me/counter.php")
+        .then(response => response.text())
+        .then(data => {
+          console.log("Visitor logged:", data);
+          // Optionally show it somewhere in the page
+          // document.body.insertAdjacentHTML("beforeend", `<p>${data}</p>`);
+        })
+        .catch(error => console.error("Visitor counter error:", error));
+    });
+  </script>
+  
 </head>
 <body>
   <div class="app">
     <header>
       <h1>Dot Gmail Generator</h1>
-      <p>Gmail's Dot Trick - Generate Up To 100,000 Valid Variations</p>
+      <p>Gmail's Dot Trick<br> - <br>Generate Up To 50,000 Valid Variations</p>
     </header><br>
     
     
     <div class="input-section">
       <input type="text" id="baseName" placeholder="Enter your gmail address">
     </div>
-    <div id="emailError" style="color:red; font-size:11px; display:none;">Enter valid gmail address!</div>
+    <div id="emailError" style="color:red; font-size:12px; display:none;">Enter valid gmail address!</div>
       
     <div class="input-section">
       <input type="number" id="countInput" min="1" max="50000" placeholder="Enter amount">
       <button id="generateBtn">Generate</button>
     </div>
-    <div id="countError" style="color:red; font-size:11px; display:none;">Enter amount between 1 to 50,000</div>
+    <div id="countError" style="color:red; font-size:12px; display:none;">Enter amount between 1 to 50,000</div>
     <br>
 
 
